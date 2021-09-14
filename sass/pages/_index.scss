@@ -24,6 +24,7 @@
     max-width: 1350px;
     padding: 40px 0 40px 0;
     margin: auto;
+    flex-wrap: wrap;
     
     .howitworks__title {
         margin: 0 20px 10px 20px;
@@ -32,6 +33,7 @@
 
     .howitworks__items {
         display: flex;
+        flex-wrap: wrap;
 
         @media screen and (max-width: $tablet) {
             margin-left: 15px;
