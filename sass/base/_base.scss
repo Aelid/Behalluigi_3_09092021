@@ -1,6 +1,8 @@
 body {
     min-width: 320px;
-    margin: 0;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin:0;
 }
 
 h1, h2, h3, p {

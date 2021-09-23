@@ -45,7 +45,7 @@
             .menu__items {
                 display: flex;
 
-                @media screen and (max-width: $pc) {
+                @media screen and (min-width: $pc) {
                     flex-wrap: wrap;
                 }
 
