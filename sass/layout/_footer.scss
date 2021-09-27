@@ -15,14 +15,18 @@ footer {
         .footer__items {
             margin: 0 20px 0 20px;
             display: flex;
+            flex-wrap:wrap;
+            flex-direction: column;
             justify-content: space-between;
 
-            @media screen and (min-width: $phone) {
+            @media screen and (min-width: $tablet) {
                 flex-wrap: wrap;
             }
 
             .footer__item {
                 color: white;
+                margin-top:10px;
+                width:100%;
 
                 @media screen and (min-width: $phone) {
                     margin-top: 10px;
